@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\224106696\\Downloads\\Gym Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\managemembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\managemembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\registermember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\registermember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\registermember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\registermember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\224106696\\downloads\\gym management system\\gym management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\Form2.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\Form2.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\Form2.cs",
+              "RelativeToolTip": "Gym Management System\\Form2.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T17:23:49.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\Form2.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\Form2.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\Form2.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T17:02:56.455Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterMember.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\RegisterMember.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\RegisterMember.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\RegisterMember.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\RegisterMember.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T12:04:47.673Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\Form1.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\Form1.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\Form1.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T09:31:21.171Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\LoginForm.cs",
+              "RelativeToolTip": "Gym Management System\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:26:08.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\AdminForm.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\AdminForm.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:40:35.844Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageMembers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\ManageMembers.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\ManageMembers.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\ManageMembers.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\ManageMembers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:18:52.525Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterMember.cs",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\RegisterMember.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\RegisterMember.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\RegisterMember.cs",
+              "RelativeToolTip": "Gym Management System\\RegisterMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T12:07:09.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MembershipPlan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\MembershipPlan.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\MembershipPlan.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\MembershipPlan.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\MembershipPlan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T13:54:08.917Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\Program.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\Program.cs",
+              "RelativeToolTip": "Gym Management System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T11:27:13.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\224106696\\Downloads\\Gym Management System\\Gym Management System\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:02:21.42Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

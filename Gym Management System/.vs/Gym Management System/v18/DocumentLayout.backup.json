@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Report.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Report.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\Report.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Report.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\Report.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T10:23:25.549Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
