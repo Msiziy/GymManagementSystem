@@ -289,6 +289,8 @@ Printing functionality may not work correctly.
 
 Therefore, managers intending to generate Member Reports, Payment Reports, or Training Session Reports should install the Crystal Reports Runtime before using the reporting features.
 
+********
+
 ## Testing Summary
 
 The following major functionalities were successfully tested:
