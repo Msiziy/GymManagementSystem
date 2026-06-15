@@ -74,7 +74,7 @@ namespace Gym_Management_System
         }
 
 		//Total incomplete training sessions in the datagridview
-		private int incompleteTrainingSessions()
+		private int PendingTrainingSession()
         {
             int incompleteSessions = 0;
 
@@ -116,7 +116,7 @@ namespace Gym_Management_System
 		private void TotalSessions()
         {
             totalTrainingSessions();
-            incompleteTrainingSessions();
+			PendingTrainingSession();
             cancelledTrainingSessions();
         }
 
@@ -147,10 +147,9 @@ namespace Gym_Management_System
 
 			SessionCrystalReportViewer frm = new SessionCrystalReportViewer();
 			frm.reportTable = dt;
-			frm.totalTrainingSessions = totalTrainingSessions();
-			frm.incompleteTrainingSessions = incompleteTrainingSessions();
-			frm.cancelledTrainingSessions = cancelledTrainingSessions();
-			frm.CompleteTrainingSessions = totalTrainingSessions() - incompleteTrainingSessions();
+			frm.totalTrainingSessions = totalTrainingSessions().ToString();
+			frm.PendingTrainingSession = PendingTrainingSession().ToString();
+			frm.cancelledTrainingSessions = cancelledTrainingSessions().ToString();
 			frm.SessionStatus = SessionStatus;
 			frm.DateFrom = SessionFromDateTimePicker.Value.ToShortDateString();
 			frm.DateTo = SessionToDateTimePicker.Value.ToShortDateString();

@@ -37,10 +37,47 @@ namespace Gym_Management_System
 
         private void guna2DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            guna2DateTimePicker2.Enabled = true;
-            SignoutBtn.Enabled = true;
-            MemberRegisterIDtxt.Text = guna2DataGridView1.CurrentRow.Cells[1].Value.ToString();
-            guna2DateTimePicker1.Value =DateTime.Today.Add((TimeSpan)guna2DataGridView1.CurrentRow.Cells[2].Value);
+            try
+            {
+                if (e.RowIndex < 0 ||
+                    guna2DataGridView1.CurrentRow == null)
+                    return;
+
+                SignoutBtn.Enabled = true;
+                guna2DateTimePicker2.Enabled = true;
+
+                object memberID =
+                    guna2DataGridView1.CurrentRow.Cells[1].Value;
+
+                object timeIn =
+                    guna2DataGridView1.CurrentRow.Cells[2].Value;
+
+                if (memberID != null)
+                {
+                    MemberRegisterIDtxt.Text = memberID.ToString();
+                }
+
+                if (timeIn != null)
+                {
+                    if (TimeSpan.TryParse(timeIn.ToString(), out TimeSpan parsedTime))
+                    {
+                        guna2DateTimePicker1.Value =
+                            DateTime.Today.Add(parsedTime);
+                    }
+                    else if (DateTime.TryParse(timeIn.ToString(), out DateTime parsedDate))
+                    {
+                        guna2DateTimePicker1.Value = parsedDate;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    ex.Message,
+                    "Row Selection Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
         }
 
         private void TimeInTxt_TextChanged(object sender, EventArgs e)
@@ -103,6 +140,7 @@ namespace Gym_Management_System
                     "Success",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
+                ResetForm();
             }
             catch (Exception ex)
             {
@@ -113,7 +151,20 @@ namespace Gym_Management_System
                     MessageBoxIcon.Error);
             }
         }
+        private void ResetForm()
+        {
+            MemberRegisterIDtxt.Clear();
 
+            RegisterDatetxt.Value = DateTime.Today;
+
+            guna2DateTimePicker1.Value = DateTime.Now;
+            guna2DateTimePicker2.Value = DateTime.Now;
+
+            guna2DateTimePicker2.Enabled = false;
+            SignoutBtn.Enabled = false;
+
+            errorProvider1.Clear();
+        }
         private void SignoutBtn_Click(object sender, EventArgs e)
         {
             try
@@ -161,6 +212,7 @@ namespace Gym_Management_System
                     "Success",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
+                ResetForm();
             }
             catch (Exception ex)
             {
@@ -197,12 +249,52 @@ namespace Gym_Management_System
 
         private void guna2DataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            MemberRegisterIDtxt.Text= guna2DataGridView2.CurrentRow.Cells[0].Value.ToString();
+            try
+            {
+                if (e.RowIndex < 0)
+                    return;
+
+                if (guna2DataGridView2.CurrentRow == null)
+                    return;
+
+                object memberID =
+                    guna2DataGridView2.CurrentRow.Cells[0].Value;
+
+                if (memberID == null ||
+                    memberID == DBNull.Value)
+                {
+                    MessageBox.Show(
+                        "No Member ID found.",
+                        "Selection Error",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
+
+                    return;
+                }
+
+                MemberRegisterIDtxt.Text = memberID.ToString();
+
+                //Optional:
+                MemberRegisterIDtxt.Focus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    ex.Message,
+                    "Grid Selection Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
         }
 
         private void MemberRegisterIDtxt_TextChanged(object sender, EventArgs e)
         {
             this.memberTableAdapter1.MemberSearchByNameOrID(this.groupWst23DataSet.Member, MemberRegisterIDtxt.Text, MemberRegisterIDtxt.Text);
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            ResetForm();
         }
     }
 }

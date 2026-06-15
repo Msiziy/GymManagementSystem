@@ -34,8 +34,9 @@ namespace Gym_Management_System
 
             // Prevent past dates
             AvalabiltyDateTimePicker1.MinDate = DateTime.Today;
+			AvalabiltyDateTimePicker1.Value = DateTime.Today;
 
-            for (int i = 0; i < TrainerTimeSlotDataGridView.RowCount - 1; i++)
+			for (int i = 0; i < TrainerTimeSlotDataGridView.RowCount - 1; i++)
             {
                 TrainerTimeSlotDataGridView.Rows[i].Cells[3].Value = "Unavailable";
             }
@@ -60,7 +61,7 @@ namespace Gym_Management_System
             try
             {
                 DialogResult result = MessageBox.Show(
-                    "Are you sure you want to save the trainer's availability?",
+                    "Are you sure you want to save the selected availability?",
                     "Confirm Save",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question

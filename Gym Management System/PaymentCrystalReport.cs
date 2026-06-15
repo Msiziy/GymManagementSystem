@@ -130,7 +130,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_PaymentNumberOfTotalMembers {
+        public CrystalDecisions.Shared.IParameterField Parameter_RecordCount {
             get {
                 return this.DataDefinition.ParameterFields[5];
             }
@@ -138,7 +138,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfTotalPaidMembers {
+        public CrystalDecisions.Shared.IParameterField Parameter_PaymentNumberOfTotalMembers {
             get {
                 return this.DataDefinition.ParameterFields[6];
             }
@@ -146,7 +146,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfTotalPayments {
+        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfTotalPaidMembers {
             get {
                 return this.DataDefinition.ParameterFields[7];
             }
@@ -154,7 +154,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_RecordCount {
+        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfTotalPayments {
             get {
                 return this.DataDefinition.ParameterFields[8];
             }

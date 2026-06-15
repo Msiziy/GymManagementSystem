@@ -1,46 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\",
+  "WorkspaceRootPath": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\trainerviewsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\trainerviewsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\trainerchooseavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\trainerchooseavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\trainerchooseavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\trainerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\trainerviewsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\trainerviewsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\trainerviewsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\trainerviewsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\groupwst23dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\groupwst23dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\trainerchooseavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\trainerchooseavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\trainerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\trainerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\gym management system\\memberreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\memberreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\trainerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\trainerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\gym management system\\sessioncrystalreport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
-      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\sessioncrystalreport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\paidplanmanagerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\paidplanmanagerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\gym management system\\paymentcrystalreport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\paidplanmanagerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\paidplanmanagerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|c:\\users\\shama\\downloads\\gym management system\\gym management system\\gym management system\\gym management system\\gym management system\\memberreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\memberreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\gym management system\\paymentcrystalreport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
       "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\paymentcrystalreport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\gym management system\\membercrystalreport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\gym management system\\membercrystalreport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
       "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\membercrystalreport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\gym management system\\sessionreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\sessionreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\gym management system\\sessionreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\sessionreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\gym management system\\groupwst23dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\groupwst23dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+      "AbsoluteMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\gym management system\\memberreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA1BFB27-DAB2-496B-8502-EC028EA7B5D6}|Gym Management System\\Gym Management System.csproj|solutionrelative:gym management system\\memberreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,124 +62,165 @@
       "DocumentGroups": [
         {
           "DockedHeight": 646,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TrainerChooseAvailability.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerChooseAvailability.cs",
-              "RelativeDocumentMoniker": "Gym Management System\\TrainerChooseAvailability.cs",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerChooseAvailability.cs [Design]",
-              "RelativeToolTip": "Gym Management System\\TrainerChooseAvailability.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T06:34:29.713Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TrainerViewSessions.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerViewSessions.cs",
+              "Title": "TrainerViewSessions.cs",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerViewSessions.cs",
               "RelativeDocumentMoniker": "Gym Management System\\TrainerViewSessions.cs",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerViewSessions.cs [Design]",
-              "RelativeToolTip": "Gym Management System\\TrainerViewSessions.cs [Design]",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerViewSessions.cs",
+              "RelativeToolTip": "Gym Management System\\TrainerViewSessions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T06:31:09.736Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-12T12:55:00.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TrainerDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerDashboard.cs",
-              "RelativeDocumentMoniker": "Gym Management System\\TrainerDashboard.cs",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerDashboard.cs [Design]",
-              "RelativeToolTip": "Gym Management System\\TrainerDashboard.cs [Design]",
+              "Title": "TrainerViewSessions.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerViewSessions.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\TrainerViewSessions.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerViewSessions.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\TrainerViewSessions.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T06:28:01.63Z",
+              "WhenOpened": "2026-06-12T12:54:16.535Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SessionCrystalReport.rpt",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\SessionCrystalReport.rpt",
-              "RelativeDocumentMoniker": "Gym Management System\\SessionCrystalReport.rpt",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\SessionCrystalReport.rpt",
-              "RelativeToolTip": "Gym Management System\\SessionCrystalReport.rpt",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-06-11T06:20:38.475Z",
+              "DocumentIndex": 3,
+              "Title": "GroupWst23DataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\GroupWst23DataSet.xsd",
+              "RelativeDocumentMoniker": "Gym Management System\\GroupWst23DataSet.xsd",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\GroupWst23DataSet.xsd",
+              "RelativeToolTip": "Gym Management System\\GroupWst23DataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-06-12T12:48:58.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PaymentCrystalReport.rpt",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\PaymentCrystalReport.rpt",
-              "RelativeDocumentMoniker": "Gym Management System\\PaymentCrystalReport.rpt",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\PaymentCrystalReport.rpt",
-              "RelativeToolTip": "Gym Management System\\PaymentCrystalReport.rpt",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-06-11T06:19:56.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MemberCrystalReport.rpt",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\MemberCrystalReport.rpt",
-              "RelativeDocumentMoniker": "Gym Management System\\MemberCrystalReport.rpt",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\MemberCrystalReport.rpt",
-              "RelativeToolTip": "Gym Management System\\MemberCrystalReport.rpt",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-06-11T04:44:11.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MemberReport.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\MemberReport.cs",
-              "RelativeDocumentMoniker": "Gym Management System\\MemberReport.cs",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\MemberReport.cs [Design]",
-              "RelativeToolTip": "Gym Management System\\MemberReport.cs [Design]",
+              "Title": "TrainerDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerDashboard.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\TrainerDashboard.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerDashboard.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\TrainerDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T04:43:47.6Z",
+              "WhenOpened": "2026-06-12T12:47:47.768Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SessionReport.cs",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\SessionReport.cs",
-              "RelativeDocumentMoniker": "Gym Management System\\SessionReport.cs",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\SessionReport.cs",
-              "RelativeToolTip": "Gym Management System\\SessionReport.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAiwFcAAAApAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TrainerChooseAvailability.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerChooseAvailability.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\TrainerChooseAvailability.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerChooseAvailability.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\TrainerChooseAvailability.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T04:09:11.195Z"
+              "WhenOpened": "2026-06-12T12:31:04.566Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TrainerDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerDashboard.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\TrainerDashboard.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerDashboard.cs",
+              "RelativeToolTip": "Gym Management System\\TrainerDashboard.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA5wBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T12:47:57.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrainerChooseAvailability.cs",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerChooseAvailability.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\TrainerChooseAvailability.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\TrainerChooseAvailability.cs",
+              "RelativeToolTip": "Gym Management System\\TrainerChooseAvailability.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T12:32:29.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "SessionReport.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\SessionReport.cs",
-              "RelativeDocumentMoniker": "Gym Management System\\SessionReport.cs",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\SessionReport.cs [Design]",
-              "RelativeToolTip": "Gym Management System\\SessionReport.cs [Design]",
+              "Title": "PaidPlanManagerDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\PaidPlanManagerDashboardForm.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\PaidPlanManagerDashboardForm.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\PaidPlanManagerDashboardForm.cs",
+              "RelativeToolTip": "Gym Management System\\PaidPlanManagerDashboardForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAewBoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T04:09:06.418Z"
+              "WhenOpened": "2026-06-12T12:31:52.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaidPlanManagerDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\PaidPlanManagerDashboardForm.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\PaidPlanManagerDashboardForm.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\PaidPlanManagerDashboardForm.cs [Design]",
+              "RelativeToolTip": "Gym Management System\\PaidPlanManagerDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T12:31:44.161Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentCrystalReport.rpt",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\PaymentCrystalReport.rpt",
+              "RelativeDocumentMoniker": "Gym Management System\\PaymentCrystalReport.rpt",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\PaymentCrystalReport.rpt",
+              "RelativeToolTip": "Gym Management System\\PaymentCrystalReport.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-06-12T09:02:13.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MemberCrystalReport.rpt",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\MemberCrystalReport.rpt",
+              "RelativeDocumentMoniker": "Gym Management System\\MemberCrystalReport.rpt",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\MemberCrystalReport.rpt",
+              "RelativeToolTip": "Gym Management System\\MemberCrystalReport.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-06-12T08:55:35.336Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GroupWst23DataSet.xsd",
-              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\GroupWst23DataSet.xsd",
-              "RelativeDocumentMoniker": "Gym Management System\\GroupWst23DataSet.xsd",
-              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\GroupWst23DataSet.xsd",
-              "RelativeToolTip": "Gym Management System\\GroupWst23DataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2026-06-11T03:51:22.872Z",
+              "Title": "MemberReport.cs",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\MemberReport.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\MemberReport.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\MemberReport.cs",
+              "RelativeToolTip": "Gym Management System\\MemberReport.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAcwLcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:55:25.67Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MemberReport.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\Gym Management System\\MemberReport.cs",
+              "RelativeDocumentMoniker": "Gym Management System\\MemberReport.cs",
+              "ToolTip": "C:\\Users\\Shama\\Downloads\\Gym Management System\\Gym Management System\\Gym Management System\\MemberReport.cs [Design]",
+              "RelativeToolTip": "..\\MemberReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:55:10.806Z"
             }
           ]
         },

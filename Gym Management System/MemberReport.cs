@@ -179,9 +179,9 @@ namespace Gym_Management_System
             frm.MemberType = memberType;
             frm.MemberGender = memberGender;
             frm.RecordCount = (MemberReportDataGridView.RowCount - 1) + " of " + NumberOfMembers;
-            frm.NumberOfTotalMembers = NumberOfTotalMembers();
-            frm.ReportTotalActiveUsers = ReportTotalActiveUsers();
-            frm.ReportTotalPaidMembers = ReportTotalPaidMembers();
+            frm.NumberOfTotalMembers = NumberOfTotalMembers().ToString();
+            frm.ReportTotalActiveUsers = ReportTotalActiveUsers().ToString();
+            frm.ReportTotalPaidMembers = ReportTotalPaidMembers().ToString();
             frm.PrintedDate = DateTime.Now.ToString("yyyy-MM-dd");
             frm.PrintedTime = DateTime.Now.ToString("HH:mm:ss");
             frm.PrintedBy = UserSession.FirstName;
@@ -204,6 +204,11 @@ namespace Gym_Management_System
 		}
 
 		private void label3_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void guna2Panel1_Paint(object sender, PaintEventArgs e)
 		{
 
 		}

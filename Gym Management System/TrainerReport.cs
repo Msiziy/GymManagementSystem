@@ -164,9 +164,9 @@ namespace Gym_Management_System
 			frm.TrainerGender = TrainerGender;
 			//frm.TrainerDateFrom = ReportFromDateTimePicker.Value.ToShortDateString();
 			//frm.TrainerDateTo = ReportToDateTimePicker.Value.ToShortDateString();
-			frm.NumberOfTotalTrainers = TotalNumberOfTrainer();
-			frm.NumberOfActiveTrainers = TotalNumberOfActiveTrainer();
-			frm.NumberOfInactiveTrainers = TotalNumberOfInactiveTrainer();
+			frm.NumberOfTotalTrainers = TotalNumberOfTrainer().ToString();
+			frm.NumberOfActiveTrainers = TotalNumberOfActiveTrainer().ToString();
+			frm.NumberOfInactiveTrainers = TotalNumberOfInactiveTrainer().ToString();
 			frm.RecordCount = (TrainerReportDataGridView.RowCount - 1) + " of " + NumberOfTotalRows;
 			frm.PrintedDate = DateTime.Now.ToString("yyyy-MM-dd");
 			frm.PrintedTime = DateTime.Now.ToString("HH:mm:ss");

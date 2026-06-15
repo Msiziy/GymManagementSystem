@@ -130,7 +130,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_totalTrainingSessions {
+        public CrystalDecisions.Shared.IParameterField Parameter_RecordCount {
             get {
                 return this.DataDefinition.ParameterFields[5];
             }
@@ -138,7 +138,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_incompleteTrainingSessions {
+        public CrystalDecisions.Shared.IParameterField Parameter_SessionStatus {
             get {
                 return this.DataDefinition.ParameterFields[6];
             }
@@ -146,7 +146,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_cancelledTrainingSessions {
+        public CrystalDecisions.Shared.IParameterField Parameter_PendingTrainingSession {
             get {
                 return this.DataDefinition.ParameterFields[7];
             }
@@ -154,7 +154,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_CompleteTrainingSessions {
+        public CrystalDecisions.Shared.IParameterField Parameter_totalTrainingSessions {
             get {
                 return this.DataDefinition.ParameterFields[8];
             }
@@ -162,17 +162,9 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_RecordCount {
+        public CrystalDecisions.Shared.IParameterField Parameter_CancelledTrainingSessions {
             get {
                 return this.DataDefinition.ParameterFields[9];
-            }
-        }
-        
-        [Browsable(false)]
-        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_SessionStatus {
-            get {
-                return this.DataDefinition.ParameterFields[10];
             }
         }
     }

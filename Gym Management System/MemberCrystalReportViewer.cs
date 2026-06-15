@@ -18,10 +18,9 @@ namespace Gym_Management_System
 		public string MemberType { get; set; }
 		public string MemberGender { get; set; }
 		public string RecordCount { get; set; }
-		public int NumberOfTotalMembers { get; set; }
-		public int ReportTotalFreeUsers { get; set; }
-		public int ReportTotalActiveUsers { get; set; }
-		public int ReportTotalPaidMembers { get; set; }
+		public string NumberOfTotalMembers { get; set; }
+		public string ReportTotalActiveUsers { get; set; }
+		public string ReportTotalPaidMembers { get; set; }
 		public string PrintedDate { get; set; }
 		public string PrintedTime { get; set; }
 		public string PrintedBy { get; set; }
@@ -45,7 +44,6 @@ namespace Gym_Management_System
 					rpt.SetParameterValue("MemberGender", MemberGender);
 					rpt.SetParameterValue("RecordCount", RecordCount);
 					rpt.SetParameterValue("NumberOfTotalMembers", NumberOfTotalMembers);
-					rpt.SetParameterValue("ReportTotalFreeUsers", ReportTotalFreeUsers);
 					rpt.SetParameterValue("ReportTotalActiveUsers", ReportTotalActiveUsers);
 					rpt.SetParameterValue("ReportTotalPaidMembers", ReportTotalPaidMembers);
 					rpt.SetParameterValue("PrintedDate", PrintedDate);

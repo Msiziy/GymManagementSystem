@@ -15,9 +15,9 @@ namespace Gym_Management_System
 		public PaymentCrystalReport rpt;
 		public DataTable reportTable;
 
-		public int PaymentNumberOfTotalMembers { get; set; }
-		public int NumberOfTotalPaidMembers { get; set; }
-		public int NumberOfTotalPayments { get; set; }
+		public string PaymentNumberOfTotalMembers { get; set; }
+		public string NumberOfTotalPaidMembers { get; set; }
+		public string NumberOfTotalPayments { get; set; }
 		public string DateFrom { get; set; }
 		public string DateTo { get; set; }
 		public string RecordCount { get; set; }

@@ -90,7 +90,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfTotalTrainers {
+        public CrystalDecisions.Shared.IParameterField Parameter_TrainerStatus {
             get {
                 return this.DataDefinition.ParameterFields[0];
             }
@@ -98,7 +98,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfActiveTrainers {
+        public CrystalDecisions.Shared.IParameterField Parameter_TrainerGender {
             get {
                 return this.DataDefinition.ParameterFields[1];
             }
@@ -106,7 +106,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfInactiveTrainers {
+        public CrystalDecisions.Shared.IParameterField Parameter_PrintedDate {
             get {
                 return this.DataDefinition.ParameterFields[2];
             }
@@ -114,7 +114,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_TrainerStatus {
+        public CrystalDecisions.Shared.IParameterField Parameter_PrintedTime {
             get {
                 return this.DataDefinition.ParameterFields[3];
             }
@@ -122,7 +122,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_TrainerGender {
+        public CrystalDecisions.Shared.IParameterField Parameter_PrintedBy {
             get {
                 return this.DataDefinition.ParameterFields[4];
             }
@@ -130,7 +130,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_PrintedDate {
+        public CrystalDecisions.Shared.IParameterField Parameter_RecordCount {
             get {
                 return this.DataDefinition.ParameterFields[5];
             }
@@ -138,7 +138,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_PrintedTime {
+        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfTotalTrainers {
             get {
                 return this.DataDefinition.ParameterFields[6];
             }
@@ -146,7 +146,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_PrintedBy {
+        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfActiveTrainers {
             get {
                 return this.DataDefinition.ParameterFields[7];
             }
@@ -154,7 +154,7 @@ namespace Gym_Management_System {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_RecordCount {
+        public CrystalDecisions.Shared.IParameterField Parameter_NumberOfInactiveTrainers {
             get {
                 return this.DataDefinition.ParameterFields[8];
             }

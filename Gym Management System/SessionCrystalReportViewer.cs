@@ -15,10 +15,9 @@ namespace Gym_Management_System
 		public SessionCrystalReport rpt;
 		public DataTable reportTable;
 
-		public int totalTrainingSessions { get; set; }
-		public int incompleteTrainingSessions { get; set; }
-		public int cancelledTrainingSessions { get; set; }
-		public int CompleteTrainingSessions { get; set; }
+		public string totalTrainingSessions { get; set; }
+		public string PendingTrainingSession { get; set; }
+		public string cancelledTrainingSessions { get; set; }
 		public string DateFrom { get; set; }
 		public string DateTo { get; set; }
 		public string RecordCount { get; set; }
@@ -42,9 +41,8 @@ namespace Gym_Management_System
 				    rpt = new SessionCrystalReport();
 					rpt.SetDataSource(reportTable);
 					rpt.SetParameterValue("totalTrainingSessions", totalTrainingSessions);
-					rpt.SetParameterValue("incompleteTrainingSessions", incompleteTrainingSessions);
+					rpt.SetParameterValue("PendingTrainingSession", PendingTrainingSession);
 					rpt.SetParameterValue("cancelledTrainingSessions", cancelledTrainingSessions);
-					rpt.SetParameterValue("CompleteTrainingSessions", CompleteTrainingSessions);
 					rpt.SetParameterValue("SessionStatus", SessionStatus);
 					rpt.SetParameterValue("DateFrom", DateFrom);
 					rpt.SetParameterValue("DateTo", DateTo);

@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
 			this.components = new System.ComponentModel.Container();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
 			this.TrainerTimeSlotDataGridView = new Guna.UI2.WinForms.Guna2DataGridView();
 			this.timeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,11 +46,11 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.TrainerSave_AbilityBtn = new Guna.UI2.WinForms.Guna2Button();
 			this.panel2 = new System.Windows.Forms.Panel();
+			this.label1 = new System.Windows.Forms.Label();
 			this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
 			this.time_SlotTableAdapter = new Gym_Management_System.GroupWst23DataSetTableAdapters.Time_SlotTableAdapter();
 			this.staffTableAdapter1 = new Gym_Management_System.GroupWst23DataSetTableAdapters.StaffTableAdapter();
 			this.trainer_ScheduleTableAdapter1 = new Gym_Management_System.GroupWst23DataSetTableAdapters.Trainer_ScheduleTableAdapter();
-			this.label1 = new System.Windows.Forms.Label();
 			this.guna2GroupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.TrainerTimeSlotDataGridView)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeSlotBindingSource)).BeginInit();
@@ -70,31 +70,31 @@
 			this.guna2GroupBox1.FillColor = System.Drawing.Color.Silver;
 			this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2GroupBox1.ForeColor = System.Drawing.Color.Black;
-			this.guna2GroupBox1.Location = new System.Drawing.Point(225, 239);
+			this.guna2GroupBox1.Location = new System.Drawing.Point(278, 235);
 			this.guna2GroupBox1.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2GroupBox1.Name = "guna2GroupBox1";
-			this.guna2GroupBox1.Size = new System.Drawing.Size(1148, 517);
+			this.guna2GroupBox1.Size = new System.Drawing.Size(1148, 659);
 			this.guna2GroupBox1.TabIndex = 3;
 			this.guna2GroupBox1.Text = "Choose Your Daily Availability:";
 			// 
 			// TrainerTimeSlotDataGridView
 			// 
 			this.TrainerTimeSlotDataGridView.AllowUserToResizeRows = false;
-			dataGridViewCellStyle1.BackColor = System.Drawing.Color.Silver;
-			dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-			dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(238)))), ((int)(((byte)(203)))));
-			dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			this.TrainerTimeSlotDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+			dataGridViewCellStyle5.BackColor = System.Drawing.Color.Silver;
+			dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+			dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(238)))), ((int)(((byte)(203)))));
+			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			this.TrainerTimeSlotDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
 			this.TrainerTimeSlotDataGridView.AutoGenerateColumns = false;
-			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(121)))), ((int)(((byte)(130)))));
-			dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(121)))), ((int)(((byte)(130)))));
-			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.TrainerTimeSlotDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+			dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(121)))), ((int)(((byte)(130)))));
+			dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(121)))), ((int)(((byte)(130)))));
+			dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.TrainerTimeSlotDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
 			this.TrainerTimeSlotDataGridView.ColumnHeadersHeight = 22;
 			this.TrainerTimeSlotDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
 			this.TrainerTimeSlotDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -103,30 +103,30 @@
             this.endTimeDataGridViewTextBoxColumn,
             this.Availability});
 			this.TrainerTimeSlotDataGridView.DataSource = this.timeSlotBindingSource;
-			dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-			dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(238)))), ((int)(((byte)(203)))));
-			dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.TrainerTimeSlotDataGridView.DefaultCellStyle = dataGridViewCellStyle3;
+			dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+			dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(238)))), ((int)(((byte)(203)))));
+			dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.TrainerTimeSlotDataGridView.DefaultCellStyle = dataGridViewCellStyle7;
 			this.TrainerTimeSlotDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.TrainerTimeSlotDataGridView.Location = new System.Drawing.Point(90, 146);
 			this.TrainerTimeSlotDataGridView.Name = "TrainerTimeSlotDataGridView";
 			this.TrainerTimeSlotDataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.TrainerTimeSlotDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+			dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+			dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.TrainerTimeSlotDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
 			this.TrainerTimeSlotDataGridView.RowHeadersVisible = false;
 			this.TrainerTimeSlotDataGridView.RowHeadersWidth = 51;
 			this.TrainerTimeSlotDataGridView.RowTemplate.Height = 24;
-			this.TrainerTimeSlotDataGridView.Size = new System.Drawing.Size(999, 150);
+			this.TrainerTimeSlotDataGridView.Size = new System.Drawing.Size(999, 382);
 			this.TrainerTimeSlotDataGridView.TabIndex = 2;
 			this.TrainerTimeSlotDataGridView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
 			this.TrainerTimeSlotDataGridView.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -219,7 +219,7 @@
 			this.TrainerAvailabityClearBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
 			this.TrainerAvailabityClearBtn.ForeColor = System.Drawing.Color.White;
 			this.TrainerAvailabityClearBtn.IndicateFocus = true;
-			this.TrainerAvailabityClearBtn.Location = new System.Drawing.Point(914, 403);
+			this.TrainerAvailabityClearBtn.Location = new System.Drawing.Point(914, 581);
 			this.TrainerAvailabityClearBtn.Margin = new System.Windows.Forms.Padding(4);
 			this.TrainerAvailabityClearBtn.Name = "TrainerAvailabityClearBtn";
 			this.TrainerAvailabityClearBtn.Size = new System.Drawing.Size(175, 57);
@@ -251,7 +251,7 @@
 			this.TrainerSave_AbilityBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
 			this.TrainerSave_AbilityBtn.ForeColor = System.Drawing.Color.White;
 			this.TrainerSave_AbilityBtn.IndicateFocus = true;
-			this.TrainerSave_AbilityBtn.Location = new System.Drawing.Point(690, 403);
+			this.TrainerSave_AbilityBtn.Location = new System.Drawing.Point(703, 581);
 			this.TrainerSave_AbilityBtn.Margin = new System.Windows.Forms.Padding(4);
 			this.TrainerSave_AbilityBtn.Name = "TrainerSave_AbilityBtn";
 			this.TrainerSave_AbilityBtn.Size = new System.Drawing.Size(182, 57);
@@ -271,6 +271,16 @@
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(1859, 1020);
 			this.panel2.TabIndex = 23;
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(102, 15);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(130, 20);
+			this.label1.TabIndex = 4;
+			this.label1.Text = "My Availability";
 			// 
 			// guna2Panel1
 			// 
@@ -293,16 +303,6 @@
 			// trainer_ScheduleTableAdapter1
 			// 
 			this.trainer_ScheduleTableAdapter1.ClearBeforeFill = true;
-			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(102, 15);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(130, 20);
-			this.label1.TabIndex = 4;
-			this.label1.Text = "My Availability";
 			// 
 			// TrainerChooseAvailability
 			// 

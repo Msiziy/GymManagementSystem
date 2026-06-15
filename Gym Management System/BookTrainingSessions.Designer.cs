@@ -212,9 +212,9 @@
             this.guna2GroupBox1.FillColor = System.Drawing.Color.Silver;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(606, 377);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(591, 304);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.Size = new System.Drawing.Size(661, 464);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(661, 430);
             this.guna2GroupBox1.TabIndex = 5;
             this.guna2GroupBox1.Text = "Book Training Session";
             this.guna2GroupBox1.Click += new System.EventHandler(this.guna2GroupBox1_Click);
@@ -376,7 +376,7 @@
             this.BookSessionBtn1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.BookSessionBtn1.ForeColor = System.Drawing.Color.White;
             this.BookSessionBtn1.IndicateFocus = true;
-            this.BookSessionBtn1.Location = new System.Drawing.Point(1391, 689);
+            this.BookSessionBtn1.Location = new System.Drawing.Point(1272, 410);
             this.BookSessionBtn1.Name = "BookSessionBtn1";
             this.BookSessionBtn1.Size = new System.Drawing.Size(180, 45);
             this.BookSessionBtn1.TabIndex = 9;
@@ -398,7 +398,7 @@
             this.ClearBtn1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ClearBtn1.ForeColor = System.Drawing.Color.White;
             this.ClearBtn1.IndicateFocus = true;
-            this.ClearBtn1.Location = new System.Drawing.Point(1400, 763);
+            this.ClearBtn1.Location = new System.Drawing.Point(1272, 480);
             this.ClearBtn1.Name = "ClearBtn1";
             this.ClearBtn1.Size = new System.Drawing.Size(180, 45);
             this.ClearBtn1.TabIndex = 10;
@@ -461,7 +461,7 @@
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidth = 51;
             this.guna2DataGridView1.RowTemplate.Height = 24;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(633, 289);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(555, 228);
             this.guna2DataGridView1.TabIndex = 6;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -554,9 +554,10 @@
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.Black;
             this.guna2GroupBox2.Location = new System.Drawing.Point(12, 30);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
-            this.guna2GroupBox2.Size = new System.Drawing.Size(633, 329);
+            this.guna2GroupBox2.Size = new System.Drawing.Size(555, 268);
             this.guna2GroupBox2.TabIndex = 7;
             this.guna2GroupBox2.Text = "Staff Details";
+            this.guna2GroupBox2.Click += new System.EventHandler(this.guna2GroupBox2_Click);
             // 
             // guna2GroupBox3
             // 
@@ -567,7 +568,7 @@
             this.guna2GroupBox3.ForeColor = System.Drawing.Color.Black;
             this.guna2GroupBox3.Location = new System.Drawing.Point(1175, 30);
             this.guna2GroupBox3.Name = "guna2GroupBox3";
-            this.guna2GroupBox3.Size = new System.Drawing.Size(632, 329);
+            this.guna2GroupBox3.Size = new System.Drawing.Size(600, 268);
             this.guna2GroupBox3.TabIndex = 8;
             this.guna2GroupBox3.Text = "Available Training Session";
             // 
@@ -625,7 +626,7 @@
             this.guna2DataGridView2.RowHeadersVisible = false;
             this.guna2DataGridView2.RowHeadersWidth = 51;
             this.guna2DataGridView2.RowTemplate.Height = 24;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(632, 289);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(600, 228);
             this.guna2DataGridView2.TabIndex = 0;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -718,9 +719,9 @@
             this.guna2GroupBox4.FillColor = System.Drawing.SystemColors.Window;
             this.guna2GroupBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox4.ForeColor = System.Drawing.Color.Black;
-            this.guna2GroupBox4.Location = new System.Drawing.Point(682, 30);
+            this.guna2GroupBox4.Location = new System.Drawing.Point(638, 30);
             this.guna2GroupBox4.Name = "guna2GroupBox4";
-            this.guna2GroupBox4.Size = new System.Drawing.Size(460, 329);
+            this.guna2GroupBox4.Size = new System.Drawing.Size(407, 268);
             this.guna2GroupBox4.TabIndex = 20;
             this.guna2GroupBox4.Text = "Member List";
             // 
@@ -776,7 +777,7 @@
             this.guna2DataGridView3.RowHeadersVisible = false;
             this.guna2DataGridView3.RowHeadersWidth = 51;
             this.guna2DataGridView3.RowTemplate.Height = 24;
-            this.guna2DataGridView3.Size = new System.Drawing.Size(460, 289);
+            this.guna2DataGridView3.Size = new System.Drawing.Size(407, 228);
             this.guna2DataGridView3.TabIndex = 19;
             this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.Font = null;

@@ -44,9 +44,11 @@ namespace Gym_Management_System
             //this.trainer_Session_viewTableAdapter1.TrainerFillBySessionVeiw(this.groupWst23DataSet.Trainer_Session_view, "162727");
 
             TrainerStatus_comboBox.SelectedItem = "Pending";
+			TrainerStart_DateTimePicker.Value = DateTime.Today;
+			TrainerEnd_DateTimePicker.Value = DateTime.Today;
 
 
-        }
+		}
 
         private void TrainerStatus_comboBox_SelectedIndexChanged_1(object sender, EventArgs e)
         {

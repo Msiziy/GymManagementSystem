@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +23,8 @@ namespace Gym_Management_System
             session_DateDateTimePicker1.MinDate = DateTime.Today;
             // TODO: This line of code loads data into the 'groupWst23DataSet.Member' table.
             this.memberTableAdapter.Fill(this.groupWst23DataSet.Member);
-
+            guna2DateTimePicker1.Enabled = false;
+            guna2DateTimePicker2.Enabled = false;
             // TODO: This line of code loads data into the 'groupWst23DataSet.Trainer_Schedule' table.
             this.trainer_ScheduleTableAdapter.SortByAvailability(
                 this.groupWst23DataSet.Trainer_Schedule,
@@ -40,6 +42,7 @@ namespace Gym_Management_System
             guna2DateTimePicker1.Format = DateTimePickerFormat.Time;
             guna2DateTimePicker1.ShowUpDown = true;
 
+            //guna2DateTimePicker1.ReadOnly = true;
             guna2DateTimePicker2.Format = DateTimePickerFormat.Time;
             guna2DateTimePicker2.ShowUpDown = true;
 
@@ -49,6 +52,8 @@ namespace Gym_Management_System
             StaffCB1.TextChanged += ClearComboError;
             SessionTypeCB1.SelectedIndexChanged += ClearComboError;
         }
+
+
         string session_ID = "";
         string time_ID = "";
         int capacity = 0;
@@ -87,8 +92,7 @@ namespace Gym_Management_System
         {
             TimeSpan selectedTime = guna2DateTimePicker1.Value.TimeOfDay;
 
-            this.time_SlotTableAdapter1.RetrieveTimeID( this.groupWst23DataSet.Time_Slot,selectedTime.ToString(@"hh\:mm\:ss")    
-);
+            this.time_SlotTableAdapter1.RetrieveTimeID( this.groupWst23DataSet.Time_Slot,selectedTime.ToString(@"hh\:mm\:ss"));
 
             if (groupWst23DataSet.Time_Slot.Rows.Count > 0)
             {
@@ -102,85 +106,111 @@ namespace Gym_Management_System
         }
         private void BookSessionBtn1_Click(object sender, EventArgs e)
         {
-           
             if (!ValidateSessionDetails())
                 return;
 
             try
             {
-
                 GetSessionID();
                 GetTimeID();
                 GetSessionCapacity();
-                //GetMemberAttendance();
-                //attendance += 1; // Increment attendance for the new booking
-                int count = Convert.ToInt32(training_Session2_0TableAdapter1.FindDoubleSession(
-                 session_DateDateTimePicker1.Value.ToString("yyyy-MM-dd"),
-                 StaffCB1.Text,
-                 guna2DateTimePicker1.Value.ToString("HH:mm:ss"),
-                 guna2DateTimePicker2.Value.ToString("HH:mm:ss")));
-               
-                if (count > 0)
+
+                string sessionDate = session_DateDateTimePicker1.Value.ToString("yyyy-MM-dd");
+                string startTime = guna2DateTimePicker1.Value.ToString("HH:mm:ss");
+                string endTime = guna2DateTimePicker2.Value.ToString("HH:mm:ss");
+
+
+                int duplicateBooking =
+                    Convert.ToInt32(
+                    training_Session2_0TableAdapter1.FindDuplicateMemberBooking(
+                        session_ID,
+                        member_IDTextBox1.Text,
+                        sessionDate,
+                        startTime,
+                        endTime));
+
+                if (duplicateBooking > 0)
                 {
-                    MessageBox.Show("Duplicate Session Found cannot add session");
+                    MessageBox.Show(
+                        "This member has already booked this session.",
+                        "Duplicate Booking",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
+
                     return;
                 }
-                else
+
+                int currentAttendance =
+                    Convert.ToInt32(
+                    training_SessionTableAdapter2.CountMainSessionAttendance(
+                        session_ID,
+                        time_ID,
+                        sessionDate));
+
+                if (currentAttendance >= capacity)
                 {
-                    //Insert into temporary table to check for duplicates before inserting into main table
-                    training_Session2_0TableAdapter1.InsertTemporaryTrainingSession(session_ID,member_IDTextBox1.Text,StaffCB1.Text,
-                        guna2DateTimePicker1.Value.ToString("HH:mm:ss"),
-                     guna2DateTimePicker2.Value.ToString("HH:mm:ss"),
-                        session_DateDateTimePicker1.Value.ToString("yyyy-MM-dd"),
-                        "N/A",
-                        attendance,
-                        session_DurationTextBox1.Text,
-                        "Pending"
-                        );
+                    MessageBox.Show(
+                        "Session capacity has been reached.",
+                        "Session Full",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
 
-                    //Add Session to main table
-                    training_SessionTableAdapter2.AddSession(
-                     session_ID,
-                     member_IDTextBox1.Text,
-                     StaffCB1.Text,
-                     time_ID,
-                     session_DateDateTimePicker1.Value.ToString("yyyy-MM-dd"),
-                     "N/A",
-                     attendance,
-                     session_DurationTextBox1.Text,
-                     "Pending"
-                 );
-                    //Count attendance for the session and update the session table
-                    attendance = Convert.ToInt32(training_Session2_0TableAdapter1.CountAttendance(session_ID,session_DateDateTimePicker1.Value.ToString("yyyy-MM-dd"),guna2DateTimePicker1.Value.ToString("HH:mm:ss"),
-                                                                                                     guna2DateTimePicker2.Value.ToString("HH:mm:ss")));
-
-                    //Update attendance in session table
-                    training_Session2_0TableAdapter1.UpdateAttendance(attendance,session_ID,session_DateDateTimePicker1.Value.ToString("yyyy-MM-dd"),guna2DateTimePicker1.Value.ToString("HH:mm:ss"),
-                                                                        guna2DateTimePicker2.Value.ToString("HH:mm:ss"));
-
-                    
-
+                    return;
                 }
-                training_SessionTableAdapter2.Fill(groupWst23DataSet.Training_Session);
 
-                MessageBox.Show("Training Session Added Successfully.");
 
-                ClearBtn1_Click(sender, e);
+                training_Session2_0TableAdapter1.InsertTemporaryTrainingSession(
+                    session_ID,
+                    member_IDTextBox1.Text,
+                    StaffCB1.Text,
+                    startTime,
+                    endTime,
+                    sessionDate,
+                    "N/A",
+                    0,
+                    session_DurationTextBox1.Text,
+                    "Pending");
+
+                training_SessionTableAdapter2.AddSession(
+                    session_ID,
+                    member_IDTextBox1.Text,
+                    StaffCB1.Text,
+                    time_ID,
+                    sessionDate,
+                    "N/A",
+                    0,
+                    session_DurationTextBox1.Text,
+                    "Pending");
+
+                int attendance = Convert.ToInt32( training_SessionTableAdapter2.CountMainSessionAttendance(  session_ID, time_ID, sessionDate));
+
+                training_Session2_0TableAdapter1.UpdateAttendance(attendance, session_ID,  sessionDate, startTime, endTime);
+
+                training_SessionTableAdapter2.UpdateMemberAttendance(
+                    attendance,
+                    session_ID,
+                    time_ID,
+                    sessionDate);
+
+                this.training_SessionTableAdapter.Fill(
+                    this.groupWst23DataSet.Training_Session);
+                ClearForm();
+                MessageBox.Show(
+                    $"Training Session Added Successfully.\n\nAttendance: {attendance}/{capacity}",
+                    "Success",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                    
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message);
+                MessageBox.Show( "Error: " + ex.Message, "Booking Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
 
         private void ClearBtn1_Click(object sender, EventArgs e)
         {
-            member_IDTextBox1.Clear();
-            StaffCB1.Clear();
-            SessionTypeCB1.SelectedIndex = -1;
-            session_DurationTextBox1.Clear();
-
-            ClearValidationErrors();
+            ClearForm();
         }
         private void ClearError(object sender, EventArgs e)
         {
@@ -432,6 +462,25 @@ namespace Gym_Management_System
         private void session_DateDateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             this.trainer_ScheduleTableAdapter.FillByDate(this.groupWst23DataSet.Trainer_Schedule, session_DateDateTimePicker1.Value.ToString());
+        }
+
+        private void guna2GroupBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void ClearForm()
+        {
+            member_IDTextBox1.Clear();
+            StaffCB1.Clear();
+            SessionTypeCB1.SelectedIndex = -1;
+            session_DurationTextBox1.Clear();
+
+            session_DateDateTimePicker1.Value = DateTime.Today;
+
+            guna2DateTimePicker1.Value = DateTime.Today;
+            guna2DateTimePicker2.Value = DateTime.Today.AddMinutes(30);
+
+            ClearValidationErrors();
         }
     }
 }

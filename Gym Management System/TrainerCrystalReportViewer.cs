@@ -15,9 +15,9 @@ namespace Gym_Management_System
 		public TrainerCrystalReport rpt;
 		public DataTable reportTable;
 
-		public int NumberOfTotalTrainers { get; set; }
-		public int NumberOfActiveTrainers { get; set; }
-		public int NumberOfInactiveTrainers { get; set; }
+		public string NumberOfTotalTrainers { get; set; }
+		public string NumberOfActiveTrainers { get; set; }
+		public string NumberOfInactiveTrainers { get; set; }
 		public string TrainerStatus { get; set; }
 		public string TrainerGender { get; set; }
 		//public string TrainerDateFrom { get; set; }

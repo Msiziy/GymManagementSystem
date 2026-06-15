@@ -38,6 +38,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.MemberList = new Guna.UI2.WinForms.Guna2GroupBox();
             this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.memberIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -68,6 +69,7 @@
             this.memberTableAdapter1 = new Gym_Management_System.GroupWst23DataSetTableAdapters.MemberTableAdapter();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.MemberList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
@@ -84,6 +86,7 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.MemberList);
             this.guna2Panel1.Controls.Add(this.SignoutBtn);
             this.guna2Panel1.Controls.Add(this.SignInBtn);
@@ -98,13 +101,33 @@
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.AutoRoundedCorners = true;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Teal;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.IndicateFocus = true;
+            this.guna2Button1.Location = new System.Drawing.Point(1505, 372);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.TabIndex = 5;
+            this.guna2Button1.Text = "Clear ";
+            this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
             // MemberList
             // 
             this.MemberList.Controls.Add(this.guna2DataGridView2);
             this.MemberList.CustomBorderColor = System.Drawing.Color.Gray;
             this.MemberList.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MemberList.ForeColor = System.Drawing.Color.Black;
-            this.MemberList.Location = new System.Drawing.Point(518, 149);
+            this.MemberList.Location = new System.Drawing.Point(518, 61);
             this.MemberList.Name = "MemberList";
             this.MemberList.Size = new System.Drawing.Size(455, 356);
             this.MemberList.TabIndex = 4;
@@ -233,7 +256,7 @@
             this.SignoutBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.SignoutBtn.ForeColor = System.Drawing.Color.White;
             this.SignoutBtn.IndicateFocus = true;
-            this.SignoutBtn.Location = new System.Drawing.Point(1355, 471);
+            this.SignoutBtn.Location = new System.Drawing.Point(1279, 372);
             this.SignoutBtn.Name = "SignoutBtn";
             this.SignoutBtn.Size = new System.Drawing.Size(180, 45);
             this.SignoutBtn.TabIndex = 3;
@@ -253,7 +276,7 @@
             this.SignInBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.SignInBtn.ForeColor = System.Drawing.Color.White;
             this.SignInBtn.IndicateFocus = true;
-            this.SignInBtn.Location = new System.Drawing.Point(1075, 471);
+            this.SignInBtn.Location = new System.Drawing.Point(1062, 372);
             this.SignInBtn.Name = "SignInBtn";
             this.SignInBtn.Size = new System.Drawing.Size(180, 45);
             this.SignInBtn.TabIndex = 2;
@@ -263,14 +286,15 @@
             // 
             // guna2GroupBox2
             // 
+            this.guna2GroupBox2.Controls.Add(this.label2);
             this.guna2GroupBox2.Controls.Add(this.guna2DataGridView1);
             this.guna2GroupBox2.CustomBorderColor = System.Drawing.Color.Gray;
             this.guna2GroupBox2.FillColor = System.Drawing.Color.Silver;
             this.guna2GroupBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.Black;
-            this.guna2GroupBox2.Location = new System.Drawing.Point(518, 532);
+            this.guna2GroupBox2.Location = new System.Drawing.Point(507, 462);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
-            this.guna2GroupBox2.Size = new System.Drawing.Size(1017, 304);
+            this.guna2GroupBox2.Size = new System.Drawing.Size(1017, 392);
             this.guna2GroupBox2.TabIndex = 1;
             this.guna2GroupBox2.Text = "Register";
             // 
@@ -312,7 +336,7 @@
             dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(49, 61);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(50, 101);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
             this.guna2DataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -412,7 +436,7 @@
             this.guna2GroupBox1.FillColor = System.Drawing.Color.Silver;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(1062, 149);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(1062, 61);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.Size = new System.Drawing.Size(473, 296);
             this.guna2GroupBox1.TabIndex = 0;
@@ -550,6 +574,16 @@
             // 
             this.errorProvider2.ContainerControl = this;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(46, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(212, 19);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Select a member to sign out";
+            // 
             // PaidPlanRegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -565,6 +599,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.memberBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupWst23DataSet)).EndInit();
             this.guna2GroupBox2.ResumeLayout(false);
+            this.guna2GroupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.paidPlanRegisterBindingSource)).EndInit();
             this.guna2GroupBox1.ResumeLayout(false);
@@ -610,6 +645,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn memberLNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource memberBindingSource;
         private Guna.UI2.WinForms.Guna2DataGridViewStyler guna2DataGridViewStyler1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.Label label2;
         //  private GroupWst23DataSetTableAdapters.PaidPlanRegisterTableTableAdapter paidPlanRegisterTableTableAdapter1;
     }
 }

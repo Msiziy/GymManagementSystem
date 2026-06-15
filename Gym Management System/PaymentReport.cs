@@ -122,9 +122,9 @@ namespace Gym_Management_System
 			frm.reportTable = dt;
 			frm.DateFrom = ReportFromDateTimePicker.Value.ToShortDateString();
 			frm.DateTo = ReportToDateTimePicker.Value.ToShortDateString();
-			frm.PaymentNumberOfTotalMembers = TotalMemberOfPayments();
-			frm.NumberOfTotalPaidMembers = NumberOfTotalPaidMembers();
-			frm.NumberOfTotalPayments = NumberOfTotalPayments();
+			frm.PaymentNumberOfTotalMembers = TotalMemberOfPayments().ToString();
+			frm.NumberOfTotalPaidMembers = NumberOfTotalPaidMembers().ToString();
+			frm.NumberOfTotalPayments = NumberOfTotalPayments().ToString();
 			frm.RecordCount = (ReportPaymentDaGridView.RowCount - 1) + " of " + NumberOfPayments;
 			frm.PrintedDate = DateTime.Now.ToString("yyyy-MM-dd");
 			frm.PrintedTime = DateTime.Now.ToString("HH:mm:ss");

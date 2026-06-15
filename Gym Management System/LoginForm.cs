@@ -252,8 +252,7 @@ namespace Gym_Management_System
 
         private void LoginAsRecepRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            LoginUsernameTextBox.Text = "siyandakhethelo5@gmail.com";
-            LoginPasswordTextBox.Text="Siyanda@2005";
+         
         }
 
         private void LoginAsTrainerRadioButton_CheckedChanged(object sender, EventArgs e)

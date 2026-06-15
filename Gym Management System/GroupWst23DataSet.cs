@@ -2,20 +2,24 @@
 {
 
 
-    partial class GroupWst23DataSet
-    {
-        partial class UpdatedMemberDetailsDataTable
-        {
-        }
+	partial class GroupWst23DataSet
+	{
+		partial class _Training_Session2_0DataTable
+		{
+		}
 
-        partial class Trainer_Session_viewDataTable
-        {
-        }
+		partial class UpdatedMemberDetailsDataTable
+		{
+		}
 
-        partial class MemberDataTable
-        {
-        }
-    }
+		partial class Trainer_Session_viewDataTable
+		{
+		}
+
+		partial class MemberDataTable
+		{
+		}
+	}
 }
 
 namespace Gym_Management_System.GroupWst23DataSetTableAdapters
