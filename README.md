@@ -127,75 +127,43 @@ Trainers can:
 
 Stores member information including:
 
-* Member_ID
-* Personal Details
-* Contact Information
-* Membership Information
-* Emergency Contact Information
+* Member_ID, Personal Details, Contact Information, Membership Information, Emergency Contact Information
 
 #### Staff
 
 Stores staff information including:
 
-* Staff_ID
-* Personal Details
-* Role Information
-* Contact Details
+* Staff_ID, Personal Details, Role Information, Contact Details
 
 #### Membership
 
 Stores membership plan details:
 
-* Membership_ID
-* Member_ID
-* Plan Type
-* Start Date
-* End Date
-* Status
-* Monthly Fee
+* Membership_ID, Member_ID, Plan Type, Start Date, End Date, Status, Monthly Fee
 
 #### Payment
 
 Stores payment records:
 
-* Payment_ID
-* Member_ID
-* Membership_ID
-* Payment Date
-* Amount Paid
-* Payment Method
+* Payment_ID, Member_ID, Membership_ID, Payment Date, Amount Paid, Payment Method
 
 #### Training_Session
 
 Stores training session information:
 
-* Session_ID
-* Member_ID
-* Staff_ID
-* Session Date
-* Session Type
-* Attendance
-* Duration
-* Status
+* Session_ID, Member_ID, Staff_ID, Session Date, Session Type, Attendance, Duration, Status
 
 #### Time_Slot
 
 Stores available session times:
 
-* Time_ID
-* Start Time
-* End Time
-* Slot Description
+* Time_ID, Start Time, End Time, Slot Description
 
 #### Login
 
 Stores user authentication information:
 
-* Login_ID
-* Staff_ID
-* Email
-* Password
-* User Role
+* Login_ID, Staff_ID, Email, Password, User Role
 
 ---
 
@@ -269,17 +237,6 @@ The system includes:
 
 ---
 
-## Installation Requirements
-
-### Software Requirements
-
-* Windows 10 or Higher
-* Visual Studio 2022
-* .NET Framework 4.7.2
-* SQL Server 2018
-* SQL Server Management Studio (SSMS)
-* SAP Crystal Reports for Visual Studio
-
 ### Database Connection
 
 The application connects to the UKZN SQL Server database through a configured connection string within the application settings.
@@ -288,15 +245,49 @@ The application connects to the UKZN SQL Server database through a configured co
 
 ## How to Run the Project
 
-1. Open the solution file in Visual Studio 2022.
-2. Restore all project references and dependencies.
-3. Configure the SQL Server connection string.
-4. Ensure the database has been created and populated.
-5. Build the solution.
-6. Run the application.
-7. Log in using a valid Manager, Receptionist, or Trainer account.
+How to Run the Project
+Prerequisites
 
----
+Before running the application, ensure the following software is installed:
+
+Visual Studio 2022
+.NET Framework 4.7.2 or later
+Microsoft SQL Server 2018 or later
+SQL Server Management Studio (SSMS)
+SAP Crystal Reports Runtime(2022) for Visual Studio
+
+Setup Instructions
+Clone or download the repository from GitHub.
+Open the solution file (.sln) using Visual Studio 2022.
+Build the solution (Build > Build Solution).
+Run the application.
+
+Login Credentials
+ - Manager
+  Email: mahlangum@ukzn.ac.za 
+  Password: Madoda$Sport
+
+- Trainer
+  Email: kwanelefaniza2@gmail.com
+  Password: Gym@123
+  
+- Receptionist
+  Email: siyandakhethelo5@gmail.com
+  Password: Siyanda@2005
+
+********
+
+Crystal Reports Requirement
+
+To generate and print reports successfully, the SAP Crystal Reports Runtime must be installed on the machine running the application.
+
+If Crystal Reports Runtime is not installed:
+
+Reports may fail to load.
+Report viewers may display errors.
+Printing functionality may not work correctly.
+
+Therefore, managers intending to generate Member Reports, Payment Reports, or Training Session Reports should install the Crystal Reports Runtime before using the reporting features.
 
 ## Testing Summary
 
